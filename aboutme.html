@@ -147,29 +147,11 @@ div.tab button.active {
 <div id="My Work" class="tabcontent">
   <h3>My Work</h3>
   <p>I don't do anything sorry.</p>
+ <img src="https://media.giphy.com/media/i79P9wUfnmPyo/giphy.gif" alt="idk.com" class="center"> 
 </div>
   <div id="Space" class="tabcontent">
   <h3>Space</h3>
-  <p>oUtER sPAcE</p>
-</div>
- <script>
-  function openCity(evt, cityName) {
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
- </script>
- 
- <hr> 
- <img src="https://media.giphy.com/media/i79P9wUfnmPyo/giphy.gif" alt="idk.com" class="center"> 
+  <p> <hr> 
  <div class="gallery">
   <a target="_blank" href="NGC2440.jpg">
     <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/NGC_2440_by_HST.jpg" alt="NGC 2440" width="300" height="200">
@@ -196,6 +178,24 @@ div.tab button.active {
     <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Keplers_supernova.jpg" alt="Kepler" width="300" height="200">
   </a>
   <div class="desc">Kepler's supernova remnant</div>
+</div></p>
 </div>
+ <script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+ </script>
+ 
+
 <p>Both Veloso and Howard's work obviously directly relies on robot development to improve general quality of life and increase understanding of our surroundings. Our team worked together by discussing possible solutions, and assigning specific tasks to each person: writing the code, working on the breadboard, and writing notes and researching. Basic parts of each Arduino sketch include setup and loos. 
 </html>
